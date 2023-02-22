@@ -1,0 +1,102 @@
+.container {
+  margin: 0 auto;
+  position: relative;
+  height: 800px;
+  width: 800px;
+}
+div {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.boxes {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  right: calc(800px - 700px);
+  top: calc(800px - 700px);
+  z-index: 1;
+}
+.red {
+  position: absolute;
+  background-color: rgb(175, 12, 12);
+}
+
+.green {
+  position: absolute;
+  background-color: rgb(3, 160, 3);
+  right: calc(100% - 505px);
+}
+
+.orange,
+.blue {
+  bottom: calc(600px - 505px);
+}
+
+.orange {
+  position: absolute;
+  background-color: rgb(116, 80, 14);
+}
+
+.blue {
+  position: absolute;
+  background-color: rgb(40, 11, 126);
+  position: absolute;
+  right: calc(100% - 505px);
+}
+
+span {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 7px;
+}
+
+.top-left,
+.top-right,
+.right-bottom,
+.right-right {
+  background-color: rgb(109, 90, 90);
+}
+
+.top-left {
+  margin-left: calc(100% - 650px);
+}
+
+.top-right {
+  margin-left: calc(100% - 700px);
+}
+
+p {
+  padding-top: 70px;
+}
+.left-side {
+  padding-left: 10px;
+  transform: rotate(270deg);
+}
+.right-right {
+  margin-top: calc(100% - 300px);
+  position: absolute;
+  bottom: 70%;
+}
+
+.right-bottom {
+  margin-top: calc(100% + 100px);
+}
+
+.box,
+.span {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0;
+}
+.top,
+.bottom,
+.span,
+.box {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
